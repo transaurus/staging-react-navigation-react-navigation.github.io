@@ -1,0 +1,10 @@
+{
+  "sourceUrl": "https://github.com/react-navigation/react-navigation.github.io",
+  "branch": "main",
+  "docusaurusRoot": ".",
+  "configFile": "docusaurus.config.js",
+  "translateCommand": "node .yarn/releases/yarn-4.0.2.cjs docusaurus write-translations",
+  "buildCommand": "node .yarn/releases/yarn-4.0.2.cjs build",
+  "buildOutput": "build",
+  "packageManager": "yarn"
+}
