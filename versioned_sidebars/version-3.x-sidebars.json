@@ -1,0 +1,91 @@
+{
+  "version-3.x-docs": {
+    "Fundamentals": [
+      "getting-started",
+      "hello-react-navigation",
+      "supported-react-native-versions",
+      "navigating",
+      "navigation-lifecycle",
+      "params",
+      "headers",
+      "header-buttons",
+      "app-containers",
+      "modal",
+      "next-steps",
+      "glossary-of-terms",
+      "common-mistakes",
+      "react-native-screens",
+      "limitations"
+    ],
+    "Guides": [
+      "tab-based-navigation",
+      "drawer-based-navigation",
+      "auth-flow",
+      "handling-iphonex",
+      "status-bar",
+      "navigation-options-resolution",
+      "custom-android-back-button-handling",
+      "connecting-navigation-prop",
+      "navigating-without-navigation-prop",
+      "navigation-key",
+      "deep-linking",
+      "screen-tracking",
+      "themes",
+      "state-persistence",
+      "redux-integration",
+      "MST-integration",
+      "localization",
+      "web-support",
+      "function-after-focusing-screen"
+    ],
+    "API reference": [
+      "navigation-prop",
+      "navigation-context",
+      "navigation-events",
+      {
+        "type": "category",
+        "collapsible": true,
+        "label": "Navigators",
+        "items": [
+          "stack-navigator",
+          "switch-navigator",
+          "animated-switch-navigator",
+          "drawer-navigator",
+          "bottom-tab-navigator",
+          "material-bottom-tab-navigator",
+          "material-top-tab-navigator"
+        ]
+      },
+      {
+        "type": "category",
+        "collapsible": true,
+        "label": "Actions",
+        "items": [
+          "navigation-actions",
+          "stack-actions",
+          "switch-actions",
+          "drawer-actions"
+        ]
+      },
+      {
+        "type": "category",
+        "collapsible": true,
+        "label": "Helpers",
+        "items": ["with-navigation", "with-navigation-focus", "scrollables"]
+      }
+    ],
+    "Build your own Navigator": [
+      "custom-navigator-overview",
+      "routers",
+      "custom-navigators",
+      "custom-routers",
+      "navigation-views",
+      "transitioner"
+    ],
+    "Related resources": [
+      "community-libraries-and-navigators",
+      "more-resources"
+    ],
+    "Meta": ["pitch", "alternatives", "contributing"]
+  }
+}

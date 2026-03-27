@@ -1,0 +1,175 @@
+{
+  "docs": [
+    {
+      "type": "category",
+      "label": "Fundamentals",
+      "customProps": {
+        "icon": "fundamentals"
+      },
+      "items": [
+        "getting-started",
+        "hello-react-navigation",
+        "navigating",
+        "params",
+        "headers",
+        "header-buttons",
+        "nesting-navigators",
+        "navigation-lifecycle",
+        "next-steps"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Guides",
+      "customProps": {
+        "icon": "guides"
+      },
+      "items": [
+        "themes",
+        "icons",
+        "testing",
+        "typescript",
+        "deep-linking",
+        "configuring-links",
+        "state-persistence",
+        "web-support",
+        "auth-flow",
+        "handling-safe-area",
+        "customizing-tabbar",
+        "hiding-tabbar-in-screens",
+        "status-bar",
+        "modal",
+        "multiple-drawers",
+        "screen-options-resolution",
+        "custom-android-back-button-handling",
+        "shared-element-transitions",
+        "preventing-going-back",
+        "function-after-focusing-screen",
+        "navigating-without-navigation-prop",
+        "server-rendering",
+        "screen-tracking",
+        "static-vs-dynamic",
+        "combine-static-with-dynamic",
+        "troubleshooting",
+        "upgrading-from-7.x"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Navigators",
+      "customProps": {
+        "icon": "navigators"
+      },
+      "items": [
+        "stack-navigator",
+        "native-stack-navigator",
+        "bottom-tab-navigator",
+        "drawer-navigator",
+        "material-top-tab-navigator"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Libraries",
+      "customProps": {
+        "icon": "libraries"
+      },
+      "items": ["devtools", "elements", "tab-view", "drawer-layout"]
+    },
+    {
+      "type": "category",
+      "label": "API reference",
+      "customProps": {
+        "icon": "api"
+      },
+      "items": [
+        "static-configuration",
+        "navigation-container",
+        "server-container",
+        "navigator",
+        "group",
+        "screen",
+        "screen-options",
+        "route-object",
+        "navigation-object",
+        "navigation-context",
+        "navigation-events",
+        "navigation-state",
+        "link",
+        {
+          "type": "category",
+          "collapsible": true,
+          "label": "Hooks",
+          "customProps": {
+            "icon": "hooks"
+          },
+          "items": [
+            "use-navigation",
+            "use-route",
+            "use-navigation-state",
+            "use-focus-effect",
+            "use-is-focused",
+            "use-prevent-remove",
+            "use-route-path",
+            "use-link-to",
+            "use-link-props",
+            "use-link-builder",
+            "use-scroll-to-top",
+            "use-theme"
+          ]
+        },
+        {
+          "type": "category",
+          "collapsible": true,
+          "label": "Actions",
+          "customProps": {
+            "icon": "actions"
+          },
+          "items": [
+            "navigation-actions",
+            "stack-actions",
+            "drawer-actions",
+            "tab-actions"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Build your own Navigator",
+      "customProps": {
+        "icon": "build"
+      },
+      "items": ["custom-routers", "custom-navigators"]
+    },
+    {
+      "type": "category",
+      "label": "Ecosystem",
+      "customProps": {
+        "icon": "ecosystem"
+      },
+      "items": [
+        "community-solutions",
+        "community-navigators",
+        "community-libraries",
+        "more-resources"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Meta",
+      "customProps": {
+        "icon": "meta"
+      },
+      "items": [
+        "migration-guides",
+        "glossary-of-terms",
+        "pitch",
+        "limitations",
+        "used-by",
+        "contributing",
+        "llms"
+      ]
+    }
+  ]
+}

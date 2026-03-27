@@ -1,0 +1,69 @@
+{
+  "version-2.x-docs": {
+    "Fundamentals": [
+      "getting-started",
+      "hello-react-navigation",
+      "supported-react-native-versions",
+      "navigating",
+      "navigation-lifecycle",
+      "params",
+      "headers",
+      "header-buttons",
+      "modal",
+      "next-steps",
+      "glossary-of-terms",
+      "common-mistakes",
+      "react-native-screens",
+      "limitations"
+    ],
+    "Assorted guides": [
+      "tab-based-navigation",
+      "drawer-based-navigation",
+      "auth-flow",
+      "handling-iphonex",
+      "status-bar",
+      "navigation-options-resolution",
+      "custom-android-back-button-handling",
+      "connecting-navigation-prop",
+      "navigating-without-navigation-prop",
+      "navigation-key",
+      "deep-linking",
+      "screen-tracking",
+      "state-persistence",
+      "app-containers",
+      "redux-integration"
+    ],
+    "Build your own Navigator": [
+      "custom-navigator-overview",
+      "routers",
+      "custom-navigators",
+      "custom-routers",
+      "navigation-views",
+      "transitioner"
+    ],
+    "Related resources": [
+      "community-libraries-and-navigators",
+      "more-resources"
+    ],
+    "Meta": ["pitch", "alternatives", "contributing"]
+  },
+  "version-2.x-api": {
+    "API reference": [
+      "api-reference",
+      "navigation-prop",
+      "navigation-actions",
+      "stack-actions",
+      "drawer-actions",
+      "stack-navigator",
+      "switch-navigator",
+      "drawer-navigator",
+      "tab-navigator",
+      "bottom-tab-navigator",
+      "material-bottom-tab-navigator",
+      "material-top-tab-navigator",
+      "with-navigation",
+      "with-navigation-focus",
+      "navigation-events"
+    ]
+  }
+}

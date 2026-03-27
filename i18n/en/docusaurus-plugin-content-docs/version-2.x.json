@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "2.x",
+    "description": "The label for version 2.x"
+  },
+  "sidebar.version-2.x-docs.category.Fundamentals": {
+    "message": "Fundamentals",
+    "description": "The label for category 'Fundamentals' in sidebar 'version-2.x-docs'"
+  },
+  "sidebar.version-2.x-docs.category.Assorted guides": {
+    "message": "Assorted guides",
+    "description": "The label for category 'Assorted guides' in sidebar 'version-2.x-docs'"
+  },
+  "sidebar.version-2.x-docs.category.Build your own Navigator": {
+    "message": "Build your own Navigator",
+    "description": "The label for category 'Build your own Navigator' in sidebar 'version-2.x-docs'"
+  },
+  "sidebar.version-2.x-docs.category.Related resources": {
+    "message": "Related resources",
+    "description": "The label for category 'Related resources' in sidebar 'version-2.x-docs'"
+  },
+  "sidebar.version-2.x-docs.category.Meta": {
+    "message": "Meta",
+    "description": "The label for category 'Meta' in sidebar 'version-2.x-docs'"
+  },
+  "sidebar.version-2.x-api.category.API reference": {
+    "message": "API reference",
+    "description": "The label for category 'API reference' in sidebar 'version-2.x-api'"
+  }
+}

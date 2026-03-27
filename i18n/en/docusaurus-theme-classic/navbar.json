@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "React Navigation",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "React Navigation Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Help": {
+    "message": "Help",
+    "description": "Navbar item with label Help"
+  },
+  "item.label.Issues": {
+    "message": "Issues",
+    "description": "Navbar item with label Issues"
+  },
+  "item.label.Feature Requests": {
+    "message": "Feature Requests",
+    "description": "Navbar item with label Feature Requests"
+  },
+  "item.label.Reactiflux Discord": {
+    "message": "Reactiflux Discord",
+    "description": "Navbar item with label Reactiflux Discord"
+  },
+  "item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "Navbar item with label Stack Overflow"
+  },
+  "item.label.Troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "Navbar item with label Troubleshooting"
+  },
+  "item.label.Contributing": {
+    "message": "Contributing",
+    "description": "Navbar item with label Contributing"
+  }
+}

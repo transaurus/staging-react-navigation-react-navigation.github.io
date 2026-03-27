@@ -1,0 +1,42 @@
+{
+  "version.label": {
+    "message": "4.x",
+    "description": "The label for version 4.x"
+  },
+  "sidebar.version-4.x-docs.category.Fundamentals": {
+    "message": "Fundamentals",
+    "description": "The label for category 'Fundamentals' in sidebar 'version-4.x-docs'"
+  },
+  "sidebar.version-4.x-docs.category.Guides": {
+    "message": "Guides",
+    "description": "The label for category 'Guides' in sidebar 'version-4.x-docs'"
+  },
+  "sidebar.version-4.x-docs.category.API reference": {
+    "message": "API reference",
+    "description": "The label for category 'API reference' in sidebar 'version-4.x-docs'"
+  },
+  "sidebar.version-4.x-docs.category.Navigators": {
+    "message": "Navigators",
+    "description": "The label for category 'Navigators' in sidebar 'version-4.x-docs'"
+  },
+  "sidebar.version-4.x-docs.category.Actions": {
+    "message": "Actions",
+    "description": "The label for category 'Actions' in sidebar 'version-4.x-docs'"
+  },
+  "sidebar.version-4.x-docs.category.Helpers": {
+    "message": "Helpers",
+    "description": "The label for category 'Helpers' in sidebar 'version-4.x-docs'"
+  },
+  "sidebar.version-4.x-docs.category.Build your own Navigator": {
+    "message": "Build your own Navigator",
+    "description": "The label for category 'Build your own Navigator' in sidebar 'version-4.x-docs'"
+  },
+  "sidebar.version-4.x-docs.category.Additional resources": {
+    "message": "Additional resources",
+    "description": "The label for category 'Additional resources' in sidebar 'version-4.x-docs'"
+  },
+  "sidebar.version-4.x-docs.category.Meta": {
+    "message": "Meta",
+    "description": "The label for category 'Meta' in sidebar 'version-4.x-docs'"
+  }
+}

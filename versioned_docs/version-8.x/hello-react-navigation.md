@@ -1,0 +1,330 @@
+---
+id: hello-react-navigation
+title: Hello React Navigation
+sidebar_label: Hello React Navigation
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+In a web browser, clicking a link pushes a page onto the browser's history stack, and pressing the back button pops the page from the stack, making the previous page active again. React Native doesn't have a built-in history like a web browser - this is where React Navigation comes in.
+
+The native stack navigator keeps track of visited screens in a history stack. It also provides UI elements such as headers, native gestures, and animations to transition between screens etc. that you'd expect in a mobile app.
+
+## Installing the native stack navigator library
+
+Each navigator in React Navigation lives in its own library.
+
+To use the native stack navigator, we need to install [`@react-navigation/native-stack`](https://github.com/react-navigation/react-navigation/tree/main/packages/native-stack):
+
+```bash npm2yarn
+npm install @react-navigation/native-stack@next
+```
+
+:::info
+
+`@react-navigation/native-stack` depends on `react-native-screens` and the other libraries that we installed in [Getting started](getting-started.md). If you haven't installed those yet, head over to that page and follow the installation instructions.
+
+:::
+
+## Installing the elements library
+
+The [`@react-navigation/elements`](elements.md) library provides components designed to work with React Navigation. In this guide, we'll use components like [`Button`](elements.md#button) from the elements library:
+
+```bash npm2yarn
+npm install @react-navigation/elements
+```
+
+## Creating a native stack navigator
+
+We can create a native stack navigator by using the `createNativeStackNavigator` function:
+
+```js name="Native Stack Example" snack static2dynamic
+import * as React from 'react';
+import { View, Text } from 'react-native';
+import { createStaticNavigation } from '@react-navigation/native';
+import {
+  createNativeStackNavigator,
+  createNativeStackScreen,
+} from '@react-navigation/native-stack';
+
+function HomeScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Home Screen</Text>
+    </View>
+  );
+}
+
+const RootStack = createNativeStackNavigator({
+  screens: {
+    Home: createNativeStackScreen({
+      screen: HomeScreen,
+    }),
+  },
+});
+
+const Navigation = createStaticNavigation(RootStack);
+
+export default function App() {
+  return <Navigation />;
+}
+```
+
+<div className="device-frame">
+
+![Basic app using stack navigator](/assets/fundamentals/basic-stack.png)
+
+</div>
+
+If you run this code, you will see a screen with an empty navigation bar and a grey content area containing your `HomeScreen` component (shown above). These are the default styles for a stack navigator - we'll learn how to customize them later.
+
+:::tip
+
+The casing of the route name doesn't matter - you can use lowercase `home` or capitalized `Home`, it's up to you. We prefer capitalizing our route names.
+
+:::
+
+## Configuring the navigator
+
+We haven't passed any configuration to the navigator yet, so it just uses the default configuration.
+
+Let's add a second screen and configure `Home` as the initial route:
+
+```js name="Native Stack Example" snack static2dynamic
+import * as React from 'react';
+import { View, Text } from 'react-native';
+import { createStaticNavigation } from '@react-navigation/native';
+import {
+  createNativeStackNavigator,
+  createNativeStackScreen,
+} from '@react-navigation/native-stack';
+
+function HomeScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Home Screen</Text>
+    </View>
+  );
+}
+
+function DetailsScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Details Screen</Text>
+    </View>
+  );
+}
+
+// codeblock-focus-start
+const RootStack = createNativeStackNavigator({
+  // highlight-next-line
+  initialRouteName: 'Home',
+  screens: {
+    Home: createNativeStackScreen({
+      screen: HomeScreen,
+    }),
+    Details: createNativeStackScreen({
+      screen: DetailsScreen,
+    }),
+  },
+});
+// codeblock-focus-end
+
+const Navigation = createStaticNavigation(RootStack);
+
+export default function App() {
+  return <Navigation />;
+}
+```
+
+Now our stack has two _routes_: `Home` and `Details`. Routes are defined under the `screens` property - the property name is the route name, and the value is the component to render.
+
+Here, the initial route is set to `Home`. Try changing `initialRouteName` to `Details` and reload the app (Fast Refresh won't pick up this change) to see the Details screen first.
+
+## Specifying options
+
+Each screen can specify options such as the header title.
+
+We can specify the `options` property in the screen configuration to set screen-specific options:
+
+```js name="Options for Screen" snack static2dynamic
+import * as React from 'react';
+import { View, Text } from 'react-native';
+import { createStaticNavigation } from '@react-navigation/native';
+import {
+  createNativeStackNavigator,
+  createNativeStackScreen,
+} from '@react-navigation/native-stack';
+
+function HomeScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Home Screen</Text>
+    </View>
+  );
+}
+
+function DetailsScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Details Screen</Text>
+    </View>
+  );
+}
+
+// codeblock-focus-start
+const RootStack = createNativeStackNavigator({
+  initialRouteName: 'Home',
+  screens: {
+    Home: createNativeStackScreen({
+      screen: HomeScreen,
+      // highlight-start
+      options: {
+        title: 'Overview',
+      },
+      // highlight-end
+    }),
+    Details: createNativeStackScreen({
+      screen: DetailsScreen,
+    }),
+  },
+});
+// codeblock-focus-end
+
+const Navigation = createStaticNavigation(RootStack);
+
+export default function App() {
+  return <Navigation />;
+}
+```
+
+To apply the same options to all screens, we can use `screenOptions` on the navigator:
+
+```js name="Common options for Screens" snack static2dynamic
+import * as React from 'react';
+import { View, Text } from 'react-native';
+import { createStaticNavigation } from '@react-navigation/native';
+import {
+  createNativeStackNavigator,
+  createNativeStackScreen,
+} from '@react-navigation/native-stack';
+
+function HomeScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Home Screen</Text>
+    </View>
+  );
+}
+
+function DetailsScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Details Screen</Text>
+    </View>
+  );
+}
+
+// codeblock-focus-start
+const RootStack = createNativeStackNavigator({
+  initialRouteName: 'Home',
+  // highlight-start
+  screenOptions: {
+    headerStyle: { backgroundColor: 'tomato' },
+  },
+  // highlight-end
+  screens: {
+    Home: createNativeStackScreen({
+      screen: HomeScreen,
+      options: {
+        title: 'Overview',
+      },
+    }),
+    Details: createNativeStackScreen({
+      screen: DetailsScreen,
+    }),
+  },
+});
+// codeblock-focus-end
+
+const Navigation = createStaticNavigation(RootStack);
+
+export default function App() {
+  return <Navigation />;
+}
+```
+
+## Passing additional props
+
+<Tabs groupId="config" queryString="config">
+<TabItem value="static" label="Static" default>
+
+Passing additional props to a screen is not supported in the static API.
+
+</TabItem>
+<TabItem value="dynamic" label="Dynamic">
+
+We can pass additional props to a screen with 2 approaches:
+
+1. [React context](https://react.dev/reference/react/useContext) and wrap the navigator with a context provider to pass data to the screens (recommended).
+2. Render callback for the screen instead of specifying a `component` prop:
+
+   ```js
+   <Stack.Screen name="Home">
+     // highlight-next-line
+     {(props) => <HomeScreen {...props} extraData={someData} />}
+   </Stack.Screen>
+   ```
+
+   :::warning
+
+   React Navigation applies optimizations to screen components to prevent unnecessary renders. Using a render callback removes those optimizations, so you'll need to use [`React.memo`](https://react.dev/reference/react/memo) or [`React.PureComponent`](https://react.dev/reference/react/PureComponent) for your screen components to avoid performance issues.
+
+   :::
+
+</TabItem>
+</Tabs>
+
+## Setting up TypeScript
+
+If you're using TypeScript, you need to tell React Navigation about your root navigator by declaring a module augmentation:
+
+```ts
+type RootStackType = typeof RootStack;
+
+declare module '@react-navigation/core' {
+  interface RootNavigator extends RootStackType {}
+}
+```
+
+Here, `RootStack` is the root navigator we created earlier using `createNativeStackNavigator`. You can place this code just below the code where you created your root navigator.
+
+Check out the [Type checking with TypeScript](typescript.md) guide for more details.
+
+## What's next?
+
+Now that we have two screens, "How do we navigate from `Home` to `Details`?". That's covered in the [next section](navigating.md).
+
+## Summary
+
+<Tabs groupId="config" queryString="config">
+<TabItem value="static" label="Static" default>
+
+- React Native doesn't have a built-in API for navigation like a web browser does. React Navigation provides this for you, along with the iOS and Android gestures and animations to transition between screens.
+- [`createNativeStackNavigator`](native-stack-navigator.md) is a function that takes the screens configuration and renders our content.
+- Each property under screens refers to the name of the route, and the value is the component to render for the route.
+- To specify what the initial route in a stack is, provide an [`initialRouteName`](navigator.md#initial-route-name) option for the navigator.
+- To specify screen-specific options, we can specify an [`options`](screen-options.md#options-prop-on-screen) property, and for common options, we can specify [`screenOptions`](screen-options.md#screenoptions-prop-on-the-navigator).
+
+</TabItem>
+<TabItem value="dynamic" label="Dynamic">
+
+- React Native doesn't have a built-in API for navigation like a web browser does. React Navigation provides this for you, along with the iOS and Android gestures and animations to transition between screens.
+- [`Stack.Navigator`](native-stack-navigator.md) is a component that takes route configuration as its children with additional props for configuration and renders our content.
+- Each [`Stack.Screen`](screen.md) component takes a [`name`](screen.md#name) prop which refers to the name of the route and [`component`](screen.md#component) prop which specifies the component to render for the route. These are the 2 required props.
+- To specify what the initial route in a stack is, provide an [`initialRouteName`](navigator.md#initial-route-name) as the prop for the navigator.
+- To specify screen-specific options, we can pass an [`options`](screen-options.md#options-prop-on-screen) prop to `Stack.Screen`, and for common options, we can pass [`screenOptions`](screen-options.md#screenoptions-prop-on-the-navigator) to `Stack.Navigator`.
+
+</TabItem>
+</Tabs>
