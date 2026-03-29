@@ -1,0 +1,46 @@
+{
+  "version.label": {
+    "message": "7.x",
+    "description": "The label for version 7.x"
+  },
+  "sidebar.docs.category.Fundamentals": {
+    "message": "Fundamentals",
+    "description": "The label for category 'Fundamentals' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Guides": {
+    "message": "Guides",
+    "description": "The label for category 'Guides' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Navigators": {
+    "message": "Navigators",
+    "description": "The label for category 'Navigators' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Libraries": {
+    "message": "Libraries",
+    "description": "The label for category 'Libraries' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.API reference": {
+    "message": "API reference",
+    "description": "The label for category 'API reference' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Hooks": {
+    "message": "Hooks",
+    "description": "The label for category 'Hooks' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Actions": {
+    "message": "Actions",
+    "description": "The label for category 'Actions' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Build your own Navigator": {
+    "message": "Build your own Navigator",
+    "description": "The label for category 'Build your own Navigator' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Ecosystem": {
+    "message": "Ecosystem",
+    "description": "The label for category 'Ecosystem' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Meta": {
+    "message": "Meta",
+    "description": "The label for category 'Meta' in sidebar 'docs'"
+  }
+}

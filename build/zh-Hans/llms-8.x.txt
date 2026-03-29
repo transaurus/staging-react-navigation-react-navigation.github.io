@@ -1,0 +1,121 @@
+# React Navigation 8.x
+
+> Routing and navigation for your React Native apps.
+
+## Documentation
+
+### Fundamentals
+
+- [Getting started](https://reactnavigation.org/docs/8.x/getting-started.md)
+- [Hello React Navigation](https://reactnavigation.org/docs/8.x/hello-react-navigation.md)
+- [Moving between screens](https://reactnavigation.org/docs/8.x/navigating.md)
+- [Passing parameters to routes](https://reactnavigation.org/docs/8.x/params.md)
+- [Configuring the header bar](https://reactnavigation.org/docs/8.x/headers.md)
+- [Header buttons](https://reactnavigation.org/docs/8.x/header-buttons.md)
+- [Nesting navigators](https://reactnavigation.org/docs/8.x/nesting-navigators.md)
+- [Navigation lifecycle](https://reactnavigation.org/docs/8.x/navigation-lifecycle.md)
+- [Next steps](https://reactnavigation.org/docs/8.x/next-steps.md)
+
+### Guides
+
+- [Themes](https://reactnavigation.org/docs/8.x/themes.md)
+- [Icons](https://reactnavigation.org/docs/8.x/icons.md)
+- [Writing tests](https://reactnavigation.org/docs/8.x/testing.md)
+- [Type checking with TypeScript](https://reactnavigation.org/docs/8.x/typescript.md)
+- [Deep linking](https://reactnavigation.org/docs/8.x/deep-linking.md)
+- [Configuring links](https://reactnavigation.org/docs/8.x/configuring-links.md)
+- [State persistence](https://reactnavigation.org/docs/8.x/state-persistence.md)
+- [React Navigation on Web](https://reactnavigation.org/docs/8.x/web-support.md)
+- [Authentication flows](https://reactnavigation.org/docs/8.x/auth-flow.md)
+- [Supporting safe areas](https://reactnavigation.org/docs/8.x/handling-safe-area.md)
+- [Hiding tab bar in specific screens](https://reactnavigation.org/docs/8.x/hiding-tabbar-in-screens.md)
+- [Different status bar configuration based on route](https://reactnavigation.org/docs/8.x/status-bar.md)
+- [Opening a modal](https://reactnavigation.org/docs/8.x/modal.md)
+- [Multiple drawers](https://reactnavigation.org/docs/8.x/multiple-drawers.md)
+- [Screen options with nested navigators](https://reactnavigation.org/docs/8.x/screen-options-resolution.md)
+- [Custom Android back button behavior](https://reactnavigation.org/docs/8.x/custom-android-back-button-handling.md)
+- [Animating elements between screens](https://reactnavigation.org/docs/8.x/shared-element-transitions.md)
+- [Preventing going back](https://reactnavigation.org/docs/8.x/preventing-going-back.md)
+- [Call a function when focused screen changes](https://reactnavigation.org/docs/8.x/function-after-focusing-screen.md)
+- [Navigating without the navigation prop](https://reactnavigation.org/docs/8.x/navigating-without-navigation-prop.md)
+- [Server rendering](https://reactnavigation.org/docs/8.x/server-rendering.md)
+- [Screen tracking for analytics](https://reactnavigation.org/docs/8.x/screen-tracking.md)
+- [Static API vs Dynamic API](https://reactnavigation.org/docs/8.x/static-vs-dynamic.md)
+- [Mixing Static & Dynamic APIs](https://reactnavigation.org/docs/8.x/combine-static-with-dynamic.md)
+- [Troubleshooting](https://reactnavigation.org/docs/8.x/troubleshooting.md)
+- [Upgrading from 7.x](https://reactnavigation.org/docs/8.x/upgrading-from-7.x.md)
+
+### Navigators
+
+- [Stack Navigator](https://reactnavigation.org/docs/8.x/stack-navigator.md)
+- [Native Stack Navigator](https://reactnavigation.org/docs/8.x/native-stack-navigator.md)
+- [Bottom Tabs Navigator](https://reactnavigation.org/docs/8.x/bottom-tab-navigator.md)
+- [Drawer Navigator](https://reactnavigation.org/docs/8.x/drawer-navigator.md)
+- [Material Top Tabs Navigator](https://reactnavigation.org/docs/8.x/material-top-tab-navigator.md)
+
+### Libraries
+
+- [Developer tools](https://reactnavigation.org/docs/8.x/devtools.md)
+- [Elements Library](https://reactnavigation.org/docs/8.x/elements.md)
+- [React Native Tab View](https://reactnavigation.org/docs/8.x/tab-view.md)
+- [React Native Drawer Layout](https://reactnavigation.org/docs/8.x/drawer-layout.md)
+
+### API reference
+
+- [Static configuration](https://reactnavigation.org/docs/8.x/static-configuration.md)
+- [NavigationContainer](https://reactnavigation.org/docs/8.x/navigation-container.md)
+- [ServerContainer](https://reactnavigation.org/docs/8.x/server-container.md)
+- [Navigator](https://reactnavigation.org/docs/8.x/navigator.md)
+- [Group](https://reactnavigation.org/docs/8.x/group.md)
+- [Screen](https://reactnavigation.org/docs/8.x/screen.md)
+- [Options for screens](https://reactnavigation.org/docs/8.x/screen-options.md)
+- [Route object reference](https://reactnavigation.org/docs/8.x/route-object.md)
+- [Navigation object reference](https://reactnavigation.org/docs/8.x/navigation-object.md)
+- [NavigationContext](https://reactnavigation.org/docs/8.x/navigation-context.md)
+- [Navigation events](https://reactnavigation.org/docs/8.x/navigation-events.md)
+- [Navigation state reference](https://reactnavigation.org/docs/8.x/navigation-state.md)
+- [Link](https://reactnavigation.org/docs/8.x/link.md)
+
+#### Hooks
+
+- [useNavigation](https://reactnavigation.org/docs/8.x/use-navigation.md)
+- [useRoute](https://reactnavigation.org/docs/8.x/use-route.md)
+- [useNavigationState](https://reactnavigation.org/docs/8.x/use-navigation-state.md)
+- [useFocusEffect](https://reactnavigation.org/docs/8.x/use-focus-effect.md)
+- [useIsFocused](https://reactnavigation.org/docs/8.x/use-is-focused.md)
+- [usePreventRemove](https://reactnavigation.org/docs/8.x/use-prevent-remove.md)
+- [useRoutePath](https://reactnavigation.org/docs/8.x/use-route-path.md)
+- [useLinkTo](https://reactnavigation.org/docs/8.x/use-link-to.md)
+- [useLinkProps](https://reactnavigation.org/docs/8.x/use-link-props.md)
+- [useLinkBuilder](https://reactnavigation.org/docs/8.x/use-link-builder.md)
+- [useScrollToTop](https://reactnavigation.org/docs/8.x/use-scroll-to-top.md)
+- [useTheme](https://reactnavigation.org/docs/8.x/use-theme.md)
+
+#### Actions
+
+- [CommonActions reference](https://reactnavigation.org/docs/8.x/navigation-actions.md)
+- [StackActions reference](https://reactnavigation.org/docs/8.x/stack-actions.md)
+- [DrawerActions reference](https://reactnavigation.org/docs/8.x/drawer-actions.md)
+- [TabActions reference](https://reactnavigation.org/docs/8.x/tab-actions.md)
+
+### Build your own Navigator
+
+- [Custom routers](https://reactnavigation.org/docs/8.x/custom-routers.md)
+- [Custom navigators](https://reactnavigation.org/docs/8.x/custom-navigators.md)
+
+### Ecosystem
+
+- [Community solutions](https://reactnavigation.org/docs/8.x/community-solutions.md)
+- [Community navigators](https://reactnavigation.org/docs/8.x/community-navigators.md)
+- [Community libraries](https://reactnavigation.org/docs/8.x/community-libraries.md)
+- [More resources](https://reactnavigation.org/docs/8.x/more-resources.md)
+
+### Meta
+
+- [Migration Guides](https://reactnavigation.org/docs/8.x/migration-guides.md)
+- [Glossary of terms](https://reactnavigation.org/docs/8.x/glossary-of-terms.md)
+- [Pitch & anti-pitch](https://reactnavigation.org/docs/8.x/pitch.md)
+- [Limitations](https://reactnavigation.org/docs/8.x/limitations.md)
+- [Apps using React Navigation](https://reactnavigation.org/docs/8.x/used-by.md)
+- [React Navigation contributor guide](https://reactnavigation.org/docs/8.x/contributing.md)
+- [Documentation for LLMs](https://reactnavigation.org/docs/8.x/llms.md)

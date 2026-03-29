@@ -1,0 +1,94 @@
+# React Navigation 3.x
+
+> Routing and navigation for your React Native apps.
+
+## Documentation
+
+### Fundamentals
+
+- [Getting started](https://reactnavigation.org/docs/3.x/getting-started.md)
+- [Hello React Navigation](https://reactnavigation.org/docs/3.x/hello-react-navigation.md)
+- [Supported React Native versions](https://reactnavigation.org/docs/3.x/supported-react-native-versions.md)
+- [Moving between screens](https://reactnavigation.org/docs/3.x/navigating.md)
+- [Navigation lifecycle](https://reactnavigation.org/docs/3.x/navigation-lifecycle.md)
+- [Passing parameters to routes](https://reactnavigation.org/docs/3.x/params.md)
+- [Configuring the header bar](https://reactnavigation.org/docs/3.x/headers.md)
+- [Header buttons](https://reactnavigation.org/docs/3.x/header-buttons.md)
+- [App containers](https://reactnavigation.org/docs/3.x/app-containers.md)
+- [Opening a full-screen modal](https://reactnavigation.org/docs/3.x/modal.md)
+- [Next steps](https://reactnavigation.org/docs/3.x/next-steps.md)
+- [Glossary of terms](https://reactnavigation.org/docs/3.x/glossary-of-terms.md)
+- [Common mistakes](https://reactnavigation.org/docs/3.x/common-mistakes.md)
+- [Optimize memory usage and performance](https://reactnavigation.org/docs/3.x/react-native-screens.md)
+- [Limitations](https://reactnavigation.org/docs/3.x/limitations.md)
+
+### Guides
+
+- [Tab navigation](https://reactnavigation.org/docs/3.x/tab-based-navigation.md)
+- [Drawer navigation](https://reactnavigation.org/docs/3.x/drawer-based-navigation.md)
+- [Authentication flows](https://reactnavigation.org/docs/3.x/auth-flow.md)
+- [Supporting safe areas](https://reactnavigation.org/docs/3.x/handling-iphonex.md)
+- [Different status bar configuration based on route](https://reactnavigation.org/docs/3.x/status-bar.md)
+- [Navigation options resolution](https://reactnavigation.org/docs/3.x/navigation-options-resolution.md)
+- [Custom Android back button behavior](https://reactnavigation.org/docs/3.x/custom-android-back-button-handling.md)
+- [Access the navigation prop from any component](https://reactnavigation.org/docs/3.x/connecting-navigation-prop.md)
+- [Navigating without the navigation prop](https://reactnavigation.org/docs/3.x/navigating-without-navigation-prop.md)
+- [Using the navigation key](https://reactnavigation.org/docs/3.x/navigation-key.md)
+- [Deep linking](https://reactnavigation.org/docs/3.x/deep-linking.md)
+- [Screen tracking for analytics](https://reactnavigation.org/docs/3.x/screen-tracking.md)
+- [Themes](https://reactnavigation.org/docs/3.x/themes.md)
+- [State persistence](https://reactnavigation.org/docs/3.x/state-persistence.md)
+- [Redux integration](https://reactnavigation.org/docs/3.x/redux-integration.md)
+- [Integrating with MobX State Tree](https://reactnavigation.org/docs/3.x/MST-integration.md)
+- [Localization](https://reactnavigation.org/docs/3.x/localization.md)
+- [React Navigation on the Web](https://reactnavigation.org/docs/3.x/web-support.md)
+- [Call a function when focused screen changes](https://reactnavigation.org/docs/3.x/function-after-focusing-screen.md)
+
+### API reference
+
+- [Navigation prop reference](https://reactnavigation.org/docs/3.x/navigation-prop.md)
+- [NavigationContext](https://reactnavigation.org/docs/3.x/navigation-context.md)
+- [NavigationEvents reference](https://reactnavigation.org/docs/3.x/navigation-events.md)
+
+#### Navigators
+
+- [createStackNavigator](https://reactnavigation.org/docs/3.x/stack-navigator.md)
+- [createSwitchNavigator](https://reactnavigation.org/docs/3.x/switch-navigator.md)
+- [createAnimatedSwitchNavigator](https://reactnavigation.org/docs/3.x/animated-switch-navigator.md)
+- [createDrawerNavigator](https://reactnavigation.org/docs/3.x/drawer-navigator.md)
+- [createBottomTabNavigator](https://reactnavigation.org/docs/3.x/bottom-tab-navigator.md)
+- [createMaterialBottomTabNavigator](https://reactnavigation.org/docs/3.x/material-bottom-tab-navigator.md)
+- [createMaterialTopTabNavigator](https://reactnavigation.org/docs/3.x/material-top-tab-navigator.md)
+
+#### Actions
+
+- [NavigationActions reference](https://reactnavigation.org/docs/3.x/navigation-actions.md)
+- [StackActions reference](https://reactnavigation.org/docs/3.x/stack-actions.md)
+- [SwitchActions reference](https://reactnavigation.org/docs/3.x/switch-actions.md)
+- [DrawerActions reference](https://reactnavigation.org/docs/3.x/drawer-actions.md)
+
+#### Helpers
+
+- [withNavigation](https://reactnavigation.org/docs/3.x/with-navigation.md)
+- [withNavigationFocus](https://reactnavigation.org/docs/3.x/with-navigation-focus.md)
+- [Scrollables](https://reactnavigation.org/docs/3.x/scrollables.md)
+
+### Build your own Navigator
+
+- [Overview](https://reactnavigation.org/docs/3.x/custom-navigator-overview.md)
+- [Routers](https://reactnavigation.org/docs/3.x/routers.md)
+- [Custom navigators](https://reactnavigation.org/docs/3.x/custom-navigators.md)
+- [Custom routers](https://reactnavigation.org/docs/3.x/custom-routers.md)
+- [Navigation views](https://reactnavigation.org/docs/3.x/navigation-views.md)
+- [Transitioner](https://reactnavigation.org/docs/3.x/transitioner.md)
+
+### Related resources
+
+- [Community-developed Navigators and Libraries](https://reactnavigation.org/docs/3.x/community-libraries-and-navigators.md)
+- [More Resources](https://reactnavigation.org/docs/3.x/more-resources.md)
+
+### Meta
+
+- [Pitch & anti-pitch](https://reactnavigation.org/docs/3.x/pitch.md)
+- [Alternative libraries](https://reactnavigation.org/docs/3.x/alternatives.md)
+- [React Navigation contributor guide](https://reactnavigation.org/docs/3.x/contributing.md)

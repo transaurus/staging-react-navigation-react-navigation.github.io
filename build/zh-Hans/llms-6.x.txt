@@ -1,0 +1,117 @@
+# React Navigation 6.x
+
+> Routing and navigation for your React Native apps.
+
+## Documentation
+
+### Fundamentals
+
+- [Getting started](https://reactnavigation.org/docs/6.x/getting-started.md)
+- [Hello React Navigation](https://reactnavigation.org/docs/6.x/hello-react-navigation.md)
+- [Moving between screens](https://reactnavigation.org/docs/6.x/navigating.md)
+- [Passing parameters to routes](https://reactnavigation.org/docs/6.x/params.md)
+- [Configuring the header bar](https://reactnavigation.org/docs/6.x/headers.md)
+- [Header buttons](https://reactnavigation.org/docs/6.x/header-buttons.md)
+- [Nesting navigators](https://reactnavigation.org/docs/6.x/nesting-navigators.md)
+- [Navigation lifecycle](https://reactnavigation.org/docs/6.x/navigation-lifecycle.md)
+- [Next steps](https://reactnavigation.org/docs/6.x/next-steps.md)
+
+### Guides
+
+- [Tab navigation](https://reactnavigation.org/docs/6.x/tab-based-navigation.md)
+- [Drawer navigation](https://reactnavigation.org/docs/6.x/drawer-based-navigation.md)
+- [Authentication flows](https://reactnavigation.org/docs/6.x/auth-flow.md)
+- [Supporting safe areas](https://reactnavigation.org/docs/6.x/handling-safe-area.md)
+- [Hiding tab bar in specific screens](https://reactnavigation.org/docs/6.x/hiding-tabbar-in-screens.md)
+- [Different status bar configuration based on route](https://reactnavigation.org/docs/6.x/status-bar.md)
+- [Opening a modal](https://reactnavigation.org/docs/6.x/modal.md)
+- [Multiple drawers](https://reactnavigation.org/docs/6.x/multiple-drawers.md)
+- [Screen options with nested navigators](https://reactnavigation.org/docs/6.x/screen-options-resolution.md)
+- [Custom Android back button behavior](https://reactnavigation.org/docs/6.x/custom-android-back-button-handling.md)
+- [shared-element-transitions](https://reactnavigation.org/docs/6.x/shared-element-transitions.md)
+- [Preventing going back](https://reactnavigation.org/docs/6.x/preventing-going-back.md)
+- [Call a function when focused screen changes](https://reactnavigation.org/docs/6.x/function-after-focusing-screen.md)
+- [Access the navigation prop from any component](https://reactnavigation.org/docs/6.x/connecting-navigation-prop.md)
+- [Navigating without the navigation prop](https://reactnavigation.org/docs/6.x/navigating-without-navigation-prop.md)
+- [Deep linking](https://reactnavigation.org/docs/6.x/deep-linking.md)
+- [Configuring links](https://reactnavigation.org/docs/6.x/configuring-links.md)
+- [React Navigation on the Web](https://reactnavigation.org/docs/6.x/web-support.md)
+- [Server rendering](https://reactnavigation.org/docs/6.x/server-rendering.md)
+- [Screen tracking for analytics](https://reactnavigation.org/docs/6.x/screen-tracking.md)
+- [Themes](https://reactnavigation.org/docs/6.x/themes.md)
+- [State persistence](https://reactnavigation.org/docs/6.x/state-persistence.md)
+- [Testing with Jest](https://reactnavigation.org/docs/6.x/testing.md)
+- [Type checking with TypeScript](https://reactnavigation.org/docs/6.x/typescript.md)
+- [Redux integration](https://reactnavigation.org/docs/6.x/redux-integration.md)
+- [Integrating with MobX State Tree](https://reactnavigation.org/docs/6.x/MST-integration.md)
+- [Troubleshooting](https://reactnavigation.org/docs/6.x/troubleshooting.md)
+- [Upgrading from 5.x](https://reactnavigation.org/docs/6.x/upgrading-from-5.x.md)
+
+### Navigators
+
+- [Stack Navigator](https://reactnavigation.org/docs/6.x/stack-navigator.md)
+- [Native Stack Navigator](https://reactnavigation.org/docs/6.x/native-stack-navigator.md)
+- [Drawer Navigator](https://reactnavigation.org/docs/6.x/drawer-navigator.md)
+- [Bottom Tabs Navigator](https://reactnavigation.org/docs/6.x/bottom-tab-navigator.md)
+- [Material Bottom Tabs Navigator](https://reactnavigation.org/docs/6.x/material-bottom-tab-navigator.md)
+- [Material Top Tabs Navigator](https://reactnavigation.org/docs/6.x/material-top-tab-navigator.md)
+
+### Libraries
+
+- [Developer tools](https://reactnavigation.org/docs/6.x/devtools.md)
+- [Elements Library](https://reactnavigation.org/docs/6.x/elements.md)
+- [React Native Tab View](https://reactnavigation.org/docs/6.x/tab-view.md)
+- [React Native Drawer Layout](https://reactnavigation.org/docs/6.x/drawer-layout.md)
+
+### API reference
+
+- [NavigationContainer](https://reactnavigation.org/docs/6.x/navigation-container.md)
+- [ServerContainer](https://reactnavigation.org/docs/6.x/server-container.md)
+- [Group](https://reactnavigation.org/docs/6.x/group.md)
+- [Screen](https://reactnavigation.org/docs/6.x/screen.md)
+- [Options for screens](https://reactnavigation.org/docs/6.x/screen-options.md)
+- [Route prop reference](https://reactnavigation.org/docs/6.x/route-prop.md)
+- [Navigation prop reference](https://reactnavigation.org/docs/6.x/navigation-prop.md)
+- [NavigationContext](https://reactnavigation.org/docs/6.x/navigation-context.md)
+- [Navigation events](https://reactnavigation.org/docs/6.x/navigation-events.md)
+- [Navigation state reference](https://reactnavigation.org/docs/6.x/navigation-state.md)
+- [Link](https://reactnavigation.org/docs/6.x/link.md)
+
+#### Hooks
+
+- [useNavigation](https://reactnavigation.org/docs/6.x/use-navigation.md)
+- [useRoute](https://reactnavigation.org/docs/6.x/use-route.md)
+- [useNavigationState](https://reactnavigation.org/docs/6.x/use-navigation-state.md)
+- [useFocusEffect](https://reactnavigation.org/docs/6.x/use-focus-effect.md)
+- [useIsFocused](https://reactnavigation.org/docs/6.x/use-is-focused.md)
+- [useLinkTo](https://reactnavigation.org/docs/6.x/use-link-to.md)
+- [useLinkProps](https://reactnavigation.org/docs/6.x/use-link-props.md)
+- [useLinkBuilder](https://reactnavigation.org/docs/6.x/use-link-builder.md)
+- [useScrollToTop](https://reactnavigation.org/docs/6.x/use-scroll-to-top.md)
+- [useTheme](https://reactnavigation.org/docs/6.x/use-theme.md)
+
+#### Actions
+
+- [CommonActions reference](https://reactnavigation.org/docs/6.x/navigation-actions.md)
+- [StackActions reference](https://reactnavigation.org/docs/6.x/stack-actions.md)
+- [DrawerActions reference](https://reactnavigation.org/docs/6.x/drawer-actions.md)
+- [TabActions reference](https://reactnavigation.org/docs/6.x/tab-actions.md)
+
+### Build your own Navigator
+
+- [Custom routers](https://reactnavigation.org/docs/6.x/custom-routers.md)
+- [Custom navigators](https://reactnavigation.org/docs/6.x/custom-navigators.md)
+
+### Additional resources
+
+- [Migration Guides](https://reactnavigation.org/docs/6.x/migration-guides.md)
+- [Navigation Solutions and Community Libraries](https://reactnavigation.org/docs/6.x/navigation-solutions-and-community-libraries.md)
+- [More Resources](https://reactnavigation.org/docs/6.x/more-resources.md)
+
+### Meta
+
+- [Glossary of terms](https://reactnavigation.org/docs/6.x/glossary-of-terms.md)
+- [Pitch & anti-pitch](https://reactnavigation.org/docs/6.x/pitch.md)
+- [Limitations](https://reactnavigation.org/docs/6.x/limitations.md)
+- [Apps using React Navigation](https://reactnavigation.org/docs/6.x/used-by.md)
+- [React Navigation contributor guide](https://reactnavigation.org/docs/6.x/contributing.md)

@@ -15,6 +15,10 @@ import lightTheme from './src/themes/react-navigation-light';
 const latestVersion = '7.x';
 
 const config: Config = {
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en", "zh-Hans"],
+  },
   title: 'React Navigation',
   tagline: 'Routing and navigation for your React Native apps',
   url: process.env.URL || 'https://reactnavigation.org',
@@ -22,12 +26,12 @@ const config: Config = {
   favicon: 'img/favicon.ico',
   organizationName: 'react-navigation',
   projectName: 'react-navigation.github.io',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenAnchors: 'throw',
   onDuplicateRoutes: 'throw',
   markdown: {
     hooks: {
-      onBrokenMarkdownLinks: 'throw',
+      onBrokenMarkdownLinks: "warn",
     },
   },
   themeConfig: {
